@@ -1,0 +1,81 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/assets/images/login_bg.jpg') no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+.loginAndReg {
+    padding: 0 30px;
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    position:absolute ;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* 注册页面隐藏 */
+.register {
+    display: none;
+}
+/* 页面图标 */
+.page_logo {
+    height: 100%;
+    background:url('/assets/images/logo.png') no-repeat ;
+}
+/* 登录框头部图标 */
+.login_logo{
+    height: 60px;
+    background: url('/assets/images/login_title.png') no-repeat  center;
+}
+/* 用户名和密码外边距 */
+#username {
+    padding-left: 30px;
+}
+#password {
+    margin-top: 20px;
+    padding-left: 30px;
+}
+#repassword {
+    margin-top: 20px;
+    padding-left: 30px
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+/* 用户名相对定位 */
+.username {
+    position: relative;
+}
+.repassword {
+    position: relative;
+}
+/* 字体图标绝对定位 */
+.layui-icon-username {
+    position: absolute;
+    top: 10px;
+    left:10px;
+}
+.password {
+    position: relative;
+
+}
+.layui-icon-password {
+    position: absolute;
+    top: 10px;
+    left:10px;
+}
+
+
+
+
+
+
+
